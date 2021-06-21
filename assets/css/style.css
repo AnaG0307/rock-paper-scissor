@@ -22,7 +22,7 @@ h1, p {
 .header {
     background-color: whitesmoke;
     width: 100%;
-    height: 300px;
+    height: 75px;
 }
 
 /* --------- score area --------- */
@@ -30,7 +30,7 @@ h1, p {
 .score-area {
     background-color: lightblue;
     width: 100%;
-    height: 300px;
+    height: 200px;
 }
 
 /* --------- play area --------- */
@@ -38,26 +38,26 @@ h1, p {
 .play-area {
     background-color: greenyellow;
     width: 100%;
-    height: 300px;
+    height: 400px;
     display: flex;
 }
 
 .human-answer {
     background-color: orange;
     width: 40%;
-    height: 300px;
+    height: 400px;
 }
 
 .result {
     background-color: blueviolet;
     width: 20%;
-    height: 300px;
+    height: 400px;
 }
 
 .computer-answer {
     background-color: rgb(133, 105, 105);
     width: 40%;
-    height: 300px;
+    height: 400px;
 }
 
 .human-answer-image {
@@ -75,10 +75,9 @@ h1, p {
 
 .button {
     width: 15%;
-    height: 100%;
+    height: 75%;
     background-color: lightskyblue;
-    margin-left: 4%;
-    border-radius: 50%;
+    margin: auto;
 }
 
 .human--answer-image
