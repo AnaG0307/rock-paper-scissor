@@ -46,16 +46,27 @@ h1 {
     background-color: #FFF8D9;
     width: 100%;
     height: fit-content;
+    padding: 35px 0px;
 }
 
-#score {
+.score {
     width: 100%;
     height: fit-content;
     display: flex;
 }
 
-#score > div {
-    width: 33%;
+.player-score {
+    width: 40%;
+    height: fit-content;
+}
+
+.computer-score {
+    width: 40%;
+    height: fit-content;
+}
+
+.tie-score {
+    width: 20%;
     height: fit-content;
 }
 
@@ -74,24 +85,25 @@ h1 {
 }
 
 .computer-answer {
-    width: 33%;
+    width: 40%;
     height: fit-content;
 }
 
 .player-answer {
-    width: 33%;
+    width: 40%;
     height: fit-content;
 }
 
 .answer-reaction {
-    width: 33%;
+    width: 20%;
     height: fit-content;
+    padding-top: 10vh;
 }
 
 /* --------- answer area --------- */
 
 .answer-area {
-    background-color: red;
+    background-color: #FFF8D9;
     width: 100%;
     height: 30%;
     display: flex;
@@ -100,8 +112,19 @@ h1 {
     text-align: center;
 }
 
-.answer-area div {
-    width: 33%;
+.btn-area {
+    width: 40%;
+    height: fit-content;
+}
+
+.empty2 {
+    width: 40%;
+    height: fit-content;
+}
+
+.empty1 {
+    width: 20%;
+    height: fit-content;
 }
 
 .button {
