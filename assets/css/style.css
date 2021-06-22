@@ -40,13 +40,23 @@ h1 h2 {
     margin: auto;
 }
 
+.header p {
+    padding: 10px 0px;
+    font-size: 1.5vh;
+}
+
+.header h1 {
+    padding: 10px 0px;
+    font-size: 5vh;
+}
+
 /* --------- score area --------- */
 
 .score-area {
     background-color: #FFF8D9;
     width: 100%;
     height: fit-content;
-    padding: 35px 0px;
+    padding: 75px 0px;
 }
 
 .score {
@@ -63,6 +73,11 @@ h1 h2 {
 .computer-score {
     width: 40%;
     height: fit-content;
+}
+
+.score-area p {
+    padding-top: 20px;
+    font-size: 2vh;
 }
 
 .tie-score {
@@ -100,6 +115,10 @@ h1 h2 {
     padding-top: 10vh;
 }
 
+.answer-reaction p {
+    font-size: 1.5vh;
+}
+
 /* --------- answer area --------- */
 
 .answer-area {
@@ -108,13 +127,17 @@ h1 h2 {
     height: 30%;
     display: flex;
     flex-wrap: wrap;
-    padding: 35px 0px;
+    padding: 35px 0px 75px;
     text-align: center;
 }
 
 .btn-area {
     width: 40%;
     height: fit-content;
+}
+
+.btn-area p {
+    padding: 0px 0px 35px;
 }
 
 .empty2 {
@@ -141,28 +164,31 @@ h1 h2 {
     width: 100%;
     height: fit-content;
     display: flex;
+    flex-direction: column;
 }
 
 .rules-area {
     background-color: #D5DBB3;
-    width: 50%;
+    width: 100%;
     height: fit-content;
-    padding: 35px 0px;
+    padding: 75px 0px 35px;
 }
 
 .rules-area img {
-    width: 100%;
-    height: 100%;
-    padding: 35px 0px;
+    width: 50%;
+    height: 50%;
+    padding: 75px 0px 35px;
 }
 
 .origins-area {
     background-color: #D5DBB3;
-    width: 50%;
+    width: 100%;
     height: fit-content;
-    padding: 35px 0px;
+    padding: 75px 0px 35px;
 }
 
 .origins-area iframe {
-    padding: 35px 0px;
+    width: 896px !important;
+    height: 504px !important;
+    padding: 75px 0px 35px;
 }
