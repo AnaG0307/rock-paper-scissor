@@ -17,7 +17,7 @@ body {
     text-align: center;
 }
 
-h1 {
+h1 h2 {
     font-family: Ubuntu, sans-serif;
     text-align: center;
 }
@@ -140,7 +140,6 @@ h1 {
     background-color: #D5DBB3;
     width: 100%;
     height: fit-content;
-    padding: 75px;
     display: flex;
 }
 
@@ -148,15 +147,22 @@ h1 {
     background-color: #D5DBB3;
     width: 50%;
     height: fit-content;
+    padding: 35px 0px;
 }
 
 .rules-area img {
     width: 100%;
     height: 100%;
+    padding: 35px 0px;
 }
 
 .origins-area {
     background-color: #D5DBB3;
     width: 50%;
     height: fit-content;
+    padding: 35px 0px;
+}
+
+.origins-area iframe {
+    padding: 35px 0px;
 }
