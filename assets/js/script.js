@@ -1,18 +1,25 @@
 // Variables to stablish the players, buttons with all answers to choose and outcome of the round
 
-let playerAnswerArea = document.getElementsByClassName('player-answer');
+let playerAnswerArea = document.getElementsByClassName('player-answer')[0];
 let computerAnswerArea = document.getElementsByClassName('computer-answer');
 let outcomeArea = document.getElementsByClassName('outcome-reaction');
 let buttonsAnswers = document.querySelectorAll('button');
-let playerAnswer;
-let computerAnswer
+let playerAnswer = [
+    'rock',
+    'paper',
+    'sicssors',
+    'lizard',
+    'spock'
+];
+let computerAnswer;
 
 // Display answer from player once a button is clicked
 
 buttonsAnswers.forEach(answer => answer.addEventListener('click', (occasion) => {
     console.log("Button clicked");
     playerAnswer = occasion.target.id;
-    playerAnswerArea.innerHTML = playerAnswer;
+    playerAnswerArea.innerText = playerAnswer;
+    console.log(playerAnswer)
     createComputerAnswer()
 }));
 
