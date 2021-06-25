@@ -94,6 +94,11 @@ h1 h2 {
     display: flex;
 }
 
+.play-area div {
+    margin: auto;
+
+}
+
 .play-area img {
     width: 30vh;
     height: 30vh;
@@ -109,13 +114,13 @@ h1 h2 {
     height: fit-content;
 }
 
-.outcome-reaction {
+.outcome-box {
     width: 20%;
     height: fit-content;
     padding-top: 10vh;
 }
 
-.outcome-reaction p {
+.outcome-box p {
     font-size: 1.5vh;
 }
 
