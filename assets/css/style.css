@@ -109,13 +109,13 @@ h1 h2 {
     height: fit-content;
 }
 
-.answer-reaction {
+.outcome-reaction {
     width: 20%;
     height: fit-content;
     padding-top: 10vh;
 }
 
-.answer-reaction p {
+.outcome-reaction p {
     font-size: 1.5vh;
 }
 
@@ -150,11 +150,13 @@ h1 h2 {
     height: fit-content;
 }
 
-.button {
-    width: 10vh;
-    height: 10vh;
+.btn {
+    width: 65px;
+    height: 45px;
     background-color: #EBA83A;
     margin: 5px;
+    border: solid 1px rgb(56, 55, 55);
+    border-radius: 5%;
 }
 
 /* --------- origins and rules area --------- */
