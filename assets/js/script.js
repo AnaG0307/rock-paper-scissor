@@ -1,7 +1,7 @@
 // Variables to stablish the players, buttons with all answers to choose and outcome of the round
 
 let playerAnswerArea = document.getElementsByClassName('player-answer')[0];
-let computerAnswerArea = document.getElementsByClassName('computer-answer');
+let computerAnswerArea = document.getElementsByClassName('computer-answer')[0];
 let outcomeArea = document.getElementsByClassName('outcome-reaction');
 let buttonsAnswers = document.querySelectorAll('button');
 let playerAnswer = [
@@ -43,5 +43,9 @@ function createComputerAnswer() {
         computerAnswer = 'spock'
     };
 
-    computerAnswerArea.innerHTML = computerAnswer;
+    computerAnswerArea.innerText = computerAnswer;
+
+    console.log(computerAnswer + playerAnswer)
     }
+
+ 
