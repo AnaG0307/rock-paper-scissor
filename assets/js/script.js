@@ -16,23 +16,15 @@ let playerAnswer = [
     'spock'
 ];
 
-let gameImages = [{
-    answer: 'rock',
-    path: "../images/rock.png"
-}, {
-    answer: 'lizard',
-    path: "../images/lizard.png"
-}, {
-    answer: 'paper',
-    path: '../images/paper.png'
-}, {
-    answer: 'scissors',
-    path: '../images/scissors.png'
-}, {
-    answer: 'spock',
-    path: '../images/spock.png'
-}
-];
+imagesPath = "assets/images/"
+
+let gameImages = {
+    rock : imagesPath + "rock.jpg", 
+    lizard : imagesPath + "lizard.jpg",
+    paper : imagesPath + "paper.jpg",
+    scissors : imagesPath + "scissor.jpg",
+    spock : imagesPath + "spock.jpg"
+    }
 
 // Display answer from player once a button is clicked
 
@@ -42,18 +34,25 @@ buttonsAnswers.forEach(answer => answer.addEventListener('click', (occasion) => 
     // Call function that returns computer answer and store it in returnedAnswer
     returnedAnswer = createComputerAnswer();
 
-
     // STEP TWO:
-    
 
-    let returnedPlayerImage = // call the getImage function and pass the playerAnswer into it as an argument and storing the return in a variable
-
+    let returnedPlayerImage =  getImage(playerAnswer) // call the getImage function and pass the playerAnswer into it as an argument and storing the return in a variable
+    console.log(returnedPlayerImage)
     // STEP THREE:
     // you'll need to write a second function to filter the image path against the computer answer
     // once again calling that function and passing in the returnedAnswer (the computer answer)
 
     playerAnswerArea.innerText = playerAnswer;  
-    // STEP FOUR:
+
+    playerImage = getImage(playerAnswer);
+    computerImage = getImage(returnedAnswer)
+    console.log("playerImage returned = ",playerImage)
+    console.log("computerImage returned = ",computerImage)
+
+    playerImageArea.src = getImage(playerAnswer)
+    computerImageArea.src = getImage(returnedAnswer)
+
+    // STEP FOUR:s
     // now using the setAttribute() method you can target the <img> element and set the 'src' attribute to returnedPlayerImage which you've set on line 49
 
     computerAnswerArea.innerText = returnedAnswer;
@@ -67,18 +66,21 @@ buttonsAnswers.forEach(answer => answer.addEventListener('click', (occasion) => 
 // >>>> Inside this function you filter the playerAnswer against the key of answer and it's value in each 
 // >>>> I've called the argument, argument but based on what you need to pass in from STEP TWO (see above) you need to name it accordingly
 
-function getImage(argument) {
+function getImage(playerAnswer) {
+    return gameImages[playerAnswer];
     // >>>>> You are on the right track with WAY2
     //WAY2
 
     // in this function you'll need to run the filter and then return the data that you store in the variable, currently named imagePlayer
     // each object in the array has 2 keys, answer and path, we want to compare answer to the argument (which should be the playerAnswer)
-    let imagePlayer = gameImages.filter(image => image.answer === argument);
+    let imagePlayer = gameImages.filter(image => image.answer === playerAnswer);
     // remember that it will return an object from the gameImages array
     // In that array we have 2 keys, answer and path, both with their own values, we want to target the first object returned in the imagePlayer variable
     // and we want to return the first value stored at the key, path, in that object:
+    
     console.log(imagePlayer[0].path[0])
 }
+
 
 
 
@@ -102,23 +104,32 @@ function getImage(argument) {
 function createComputerAnswer() {
 
     let assignPosition = Math.floor(Math.random() * 5);
-    let computerAnswer;
 
-    if (assignPosition === 0) {
-        computerAnswer = 'rock'
-    };
-    if (assignPosition === 1) {
-        computerAnswer = 'paper'
-    };
-    if (assignPosition === 2) {
-        computerAnswer = 'scissors'
-    };
-    if (assignPosition === 3) {
-        computerAnswer = 'lizard'
-    };
-    if (assignPosition === 4) {
-        computerAnswer = 'spock'
-    };
+    let answers = ['rock','paper','scissors','lizard','spock'];
 
-    return computerAnswer;
+    return answers[assignPosition];
+
+
+
+
+    // let computerAnswer;
+
+    // if (assignPosition === 0) {
+    //     computerAnswer = 'rock'
+    // };
+    // if (assignPosition === 1) {
+    //     computerAnswer = 'paper'
+    // };
+    // if (assignPosition === 2) {
+    //     computerAnswer = 'scissors'
+    // };
+    // if (assignPosition === 3) {
+    //     computerAnswer = 'lizard'
+    // };
+    // if (assignPosition === 4) {
+    //     computerAnswer = 'spock'
+    // };
+
+    // return computerAnswer;
+
 }
