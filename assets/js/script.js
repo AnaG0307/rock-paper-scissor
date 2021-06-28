@@ -23,8 +23,7 @@ let gameImages = {
     paper : imagesPath + "paper.jpg",
     scissors : imagesPath + "scissor.jpg",
     spock : imagesPath + "spock.jpg"
-    }
-
+    };
 
 // Create answer from player and show image for player and computer choices
 
@@ -44,13 +43,12 @@ buttonsAnswers.forEach(answer => answer.addEventListener('click', (occasion) => 
     computerImageArea.src = getImage(returnedAnswer);
 
     computerAnswerArea.innerText = returnedAnswer;
+    roundOutcome();
 }));
 
 function getImage(playerAnswer) {
     return gameImages[playerAnswer];
-    roundOutcome()
-
-}
+};
 
 // Create answer from computer
 
@@ -66,58 +64,58 @@ function createComputerAnswer() {
 function roundOutcome() {
     if (playerAnswer === returnedAnswer) {
         outcome = "Nobody wins, try again!"
-    }
+    };
     if (playerAnswer === 'rock' && returnedAnswer === 'paper') {
         outcome = 'You lost!'
-    }
+    };
     if (playerAnswer === 'rock' && returnedAnswer === 'scissors') {
         outcome = 'You win!'
-    }
+    };
     if (playerAnswer === 'rock' && returnedAnswer === 'lizard') {
         outcome = 'You win!'
-    }
+    };
     if (playerAnswer === 'rock' && returnedAnswer === 'spock') {
         outcome = 'You lost!'
-    }
+    };
     if (playerAnswer === 'paper' && returnedAnswer === 'rock') {
         outcome = 'You win!'
-    }
+    };
     if (playerAnswer === 'paper' && returnedAnswer === 'scissors') {
         outcome = 'You lost!'
-    }
+    };
     if (playerAnswer === 'paper' && returnedAnswer === 'lizard') {
         outcome = 'You lost!'
-    }
+    };
     if (playerAnswer === 'paper' && returnedAnswer === 'spock') {
         outcome = 'You win!'
-    }
+    };
     if (playerAnswer === 'scissors' && returnedAnswer === 'rock') {
         outcome = 'You lost!'
-    }
+    };
     if (playerAnswer === 'scissors' && returnedAnswer === 'paper') {
         outcome = 'You win!'
-    }
+    };
     if (playerAnswer === 'scissors' && returnedAnswer === 'lizard') {
         outcome = 'You win!'
-    }
+    };
     if (playerAnswer === 'scissors' && returnedAnswer === 'spock') {
         outcome = 'You lost!'
-    }
+    };
     if (playerAnswer === 'lizard' && returnedAnswer === 'rock') {
         outcome = 'You lost!'
-    }
+    };
     if (playerAnswer === 'lizard' && returnedAnswer === 'paper') {
         outcome = 'You win!'
-    }
+    };
     if (playerAnswer === 'lizard' && returnedAnswer === 'scissors') {
         outcome = 'You lost!'
-    }
+    };
     if (playerAnswer === 'lizard' && returnedAnswer === 'spock') {
         outcome = 'You win!'
-    }
+    };
     if (playerAnswer === 'spock' && returnedAnswer === 'rock') {
         outcome = 'You win!'
-    }
+    };
     if (playerAnswer === 'spock' && returnedAnswer === 'paper') {
         outcome = 'You lost!';
     };
@@ -128,7 +126,7 @@ function roundOutcome() {
         outcome = 'You lost!';
     };
     
-    let outcomeArea = document.getElementsByClassName('outcome-reaction');
-    outcomeArea.innerHTML = outcome;
+    document.getElementsByClassName("outcome-reaction").innerHTML = outcome
+    console.log(outcome);
 }
 
