@@ -124,6 +124,11 @@ h1 h2 {
     font-size: 1.5vh;
 }
 
+.answer-box {
+    width: 40%;
+    height: fit-content;
+}
+
 /* --------- answer area --------- */
 
 .answer-area {
