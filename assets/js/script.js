@@ -6,7 +6,6 @@ let playerImageArea = document.getElementsByClassName('player-answer-img')[0];
 let computerAnswerArea = document.getElementsByClassName('computer-answer')[0];
 let computerImageArea = document.getElementsByClassName('computer-answer-img')[0];
 
-let outcomeArea = document.getElementsByClassName('outcome-reaction');
 let buttonsAnswers = document.querySelectorAll('button');
 let playerAnswer = [
     'rock',
@@ -26,110 +25,110 @@ let gameImages = {
     spock : imagesPath + "spock.jpg"
     }
 
-// Display answer from player once a button is clicked
+
+// Create answer from player and show image for player and computer choices
+
 
 buttonsAnswers.forEach(answer => answer.addEventListener('click', (occasion) => {
     playerAnswer = occasion.target.id;
 
-    // Call function that returns computer answer and store it in returnedAnswer
     returnedAnswer = createComputerAnswer();
 
-    // STEP TWO:
-
-    let returnedPlayerImage =  getImage(playerAnswer) // call the getImage function and pass the playerAnswer into it as an argument and storing the return in a variable
-    console.log(returnedPlayerImage)
-    // STEP THREE:
-    // you'll need to write a second function to filter the image path against the computer answer
-    // once again calling that function and passing in the returnedAnswer (the computer answer)
-
+    let returnedPlayerImage =  getImage(playerAnswer);
     playerAnswerArea.innerText = playerAnswer;  
-
     playerImage = getImage(playerAnswer);
-    computerImage = getImage(returnedAnswer)
-    console.log("playerImage returned = ",playerImage)
-    console.log("computerImage returned = ",computerImage)
 
-    playerImageArea.src = getImage(playerAnswer)
-    computerImageArea.src = getImage(returnedAnswer)
+    computerImage = getImage(returnedAnswer);
 
-    // STEP FOUR:s
-    // now using the setAttribute() method you can target the <img> element and set the 'src' attribute to returnedPlayerImage which you've set on line 49
+    playerImageArea.src = getImage(playerAnswer);
+    computerImageArea.src = getImage(returnedAnswer);
 
     computerAnswerArea.innerText = returnedAnswer;
-
 }));
-
-// // Display answer image from player selection
-
-// >>>> STEP ONE:
-// >>>> Write a function that takes an argument, I've started it below for you
-// >>>> Inside this function you filter the playerAnswer against the key of answer and it's value in each 
-// >>>> I've called the argument, argument but based on what you need to pass in from STEP TWO (see above) you need to name it accordingly
 
 function getImage(playerAnswer) {
     return gameImages[playerAnswer];
-    // >>>>> You are on the right track with WAY2
-    //WAY2
+    roundOutcome()
 
-    // in this function you'll need to run the filter and then return the data that you store in the variable, currently named imagePlayer
-    // each object in the array has 2 keys, answer and path, we want to compare answer to the argument (which should be the playerAnswer)
-    let imagePlayer = gameImages.filter(image => image.answer === playerAnswer);
-    // remember that it will return an object from the gameImages array
-    // In that array we have 2 keys, answer and path, both with their own values, we want to target the first object returned in the imagePlayer variable
-    // and we want to return the first value stored at the key, path, in that object:
-    
-    console.log(imagePlayer[0].path[0])
 }
 
-
-
-
-// //WAY1
-// for (let i = 0; i < gameImages.length; i++) {
-//     if (answer[i].path === playerAnswer){
-//         gameImages.push(answer[i]);
-//     }
-// }
-// console.log(gameImages);
-
-// //WAY3
-// var imagePlayer = gameImages.filter(function(e) {
-//     return e.answer == playerAnswer;
-// })
-// console.log(imagePlayer);
-
-
-// Create answer from computer when player clicks and option
+// Create answer from computer
 
 function createComputerAnswer() {
-
     let assignPosition = Math.floor(Math.random() * 5);
-
     let answers = ['rock','paper','scissors','lizard','spock'];
-
     return answers[assignPosition];
+};
 
 
+// Generate an outcome by comparing player and computer´s answers
 
-
-    // let computerAnswer;
-
-    // if (assignPosition === 0) {
-    //     computerAnswer = 'rock'
-    // };
-    // if (assignPosition === 1) {
-    //     computerAnswer = 'paper'
-    // };
-    // if (assignPosition === 2) {
-    //     computerAnswer = 'scissors'
-    // };
-    // if (assignPosition === 3) {
-    //     computerAnswer = 'lizard'
-    // };
-    // if (assignPosition === 4) {
-    //     computerAnswer = 'spock'
-    // };
-
-    // return computerAnswer;
-
+function roundOutcome() {
+    if (playerAnswer === returnedAnswer) {
+        outcome = "Nobody wins, try again!"
+    }
+    if (playerAnswer === 'rock' && returnedAnswer === 'paper') {
+        outcome = 'You lost!'
+    }
+    if (playerAnswer === 'rock' && returnedAnswer === 'scissors') {
+        outcome = 'You win!'
+    }
+    if (playerAnswer === 'rock' && returnedAnswer === 'lizard') {
+        outcome = 'You win!'
+    }
+    if (playerAnswer === 'rock' && returnedAnswer === 'spock') {
+        outcome = 'You lost!'
+    }
+    if (playerAnswer === 'paper' && returnedAnswer === 'rock') {
+        outcome = 'You win!'
+    }
+    if (playerAnswer === 'paper' && returnedAnswer === 'scissors') {
+        outcome = 'You lost!'
+    }
+    if (playerAnswer === 'paper' && returnedAnswer === 'lizard') {
+        outcome = 'You lost!'
+    }
+    if (playerAnswer === 'paper' && returnedAnswer === 'spock') {
+        outcome = 'You win!'
+    }
+    if (playerAnswer === 'scissors' && returnedAnswer === 'rock') {
+        outcome = 'You lost!'
+    }
+    if (playerAnswer === 'scissors' && returnedAnswer === 'paper') {
+        outcome = 'You win!'
+    }
+    if (playerAnswer === 'scissors' && returnedAnswer === 'lizard') {
+        outcome = 'You win!'
+    }
+    if (playerAnswer === 'scissors' && returnedAnswer === 'spock') {
+        outcome = 'You lost!'
+    }
+    if (playerAnswer === 'lizard' && returnedAnswer === 'rock') {
+        outcome = 'You lost!'
+    }
+    if (playerAnswer === 'lizard' && returnedAnswer === 'paper') {
+        outcome = 'You win!'
+    }
+    if (playerAnswer === 'lizard' && returnedAnswer === 'scissors') {
+        outcome = 'You lost!'
+    }
+    if (playerAnswer === 'lizard' && returnedAnswer === 'spock') {
+        outcome = 'You win!'
+    }
+    if (playerAnswer === 'spock' && returnedAnswer === 'rock') {
+        outcome = 'You win!'
+    }
+    if (playerAnswer === 'spock' && returnedAnswer === 'paper') {
+        outcome = 'You lost!';
+    };
+    if (playerAnswer === 'spock' && returnedAnswer === 'scissors') {
+        outcome = 'You win!';
+    };
+    if (playerAnswer === 'spock' && returnedAnswer === 'lizard') {
+        outcome = 'You lost!';
+    };
+    
+    let outcomeArea = document.getElementsByClassName('outcome-reaction');
+    outcomeArea.innerHTML = outcome;
 }
+
