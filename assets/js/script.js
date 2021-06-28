@@ -126,7 +126,7 @@ function roundOutcome() {
         outcome = 'You lost!';
     };
     
-    document.getElementsByClassName("outcome-reaction").innerHTML = outcome
+    document.getElementById("outcome-reaction").innerHTML = outcome;
     console.log(outcome);
 }
 
