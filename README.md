@@ -1,59 +1,244 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Let'sPlay!Rock-Paper-Scissors-Lizzard-Spock
 
-Welcome AnaG0307,
+![Website home page screenshot](assets/images/readme/)
+[View the page on github here](https://)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+## Table of Contents
 
-## Gitpod Reminders
+1. [Introduction](#Introduction)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+2. [UX](#UX)
 
-`python3 -m http.server`
+    i. [Ideal User Demographic](#Ideal-User-Demographic)
 
-A blue button should appear to click: _Make Public_,
+    ii. [User Stories](#User-Stories)
 
-Another blue button should appear to click: _Open Browser_.
+    iii. [Design Planes](#Design-Planes)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+3. [Features](#Features)
 
-A blue button should appear to click: _Make Public_,
+    i. [Navigation Bar](#Navigation-Bar)
 
-Another blue button should appear to click: _Open Browser_.
+    ii. [Landing Page Image](#Landing-Page-Image)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+    iii. [Home Section](#Home-Section)
 
-To log into the Heroku toolbelt CLI:
+    iv. [Footer](#Footer)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+    v. [Gallery](#Gallery)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+    vi. [Create your Order](#Create-Your-Order)
 
-## Updates Since The Instructional Video
+    vii. [Contact](#Contact)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+4. [Testing, Validation and Deployment](#Testing-and-Deployment)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+    i. [Testing](#testing)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+    ii. [Validation](#Validation)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+    ii. [Deployment](#deployment)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+5. [Issues and Bugs](#Issues-and-Bugs)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+6. [Technologies Used](#Technologies-Used)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+7. [Credits](#Credits)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+***
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Introduction
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+(...)
 
----
+[Back to Top ⇧](#Let'sPlay!Rock-Paper-Scissors-Lizzard-Spock) 
 
-Happy coding!
+***
+
+## UX
+
+### Ideal User Demographic 
+#### The ideal user of this website is:
+- (...)
+
+
+### User Stories
+#### New and potential users goals:
+- (...)
+
+#### Current Social Media Followers
+- (...)
+
+[Back to Top ⇧](#Let'sPlay!Rock-Paper-Scissors-Lizzard-Spock) 
+
+***
+
+### Design Planes
+
+(...)
+
+#### **Strategy**
+
+##### Who is this website for and what does it do?
+
+1. Demographics:
+    1. (...)
+
+2. Functional Requirements:
+    1. (...)
+
+3. Benefits for the artist:
+    1. (...)
+
+4. Importance/Feasability Curve
+
+![Importance/Feasability Curve](assets/images/readme/strategy.png)
+
+#### **Scope**
+
+In order to align the features defined in the strategy section, the scope was divided in two categories:
+
+**Content Requirements**
+
+The user will be looking for:
+
+- (...)
+
+**Functionality Requirements**
+
+- (...)
+
+#### **Structure**
+
+The website is been organised in a way the user can find the different sections in a strcutured but also relevant way. The results are as follows:
+
+![Website Structure](add acreenshot of the structure of the site)
+
+#### **Skeleton**
+
+How is the information represented and how does the user find such information:
+
+- (...)
+- Wireframe mockups were created in [Figma](https://www.figma.com/file/ECj7IYln3FYai5damrGpnC/Rock%2C-paper%2C-scissor%2C-lizard%2C-Spock?node-id=0%3A1 "Link to Figma") to ensure the structure represented all the requirements described above (different versions were created).
+
+#### **Surface**
+
+- (...)
+
+[Back to Top ⇧](#Let'sPlay!Rock-Paper-Scissors-Lizzard-Spock) 
+
+***
+
+## Features
+
+(...)
+
+
+
+[Back to Top ⇧](#Let'sPlay!Rock-Paper-Scissors-Lizzard-Spock) 
+
+***
+
+## Testing and Deployment
+
+### Testing
+
+General testing [video on Youtube (external link)](https://www.you... "Adriana Crafter general testing video"). 
+
+The observations are as follows:
+
+- (...)
+
+### Validation
+
+No errors have been found when checking HTML and CSS code. To validate the code the developer has used:
+
+- [Jigsaw](https://validator.w3.org/ "link to the validator website for CSS")
+
+- [W3C](https://validator.w3.org/#validate_by_input "link to the validator website for HTML")
+
+### Deployment
+
+This project was developed using [Visual Studio Code Insiders](https://code.visualstudio.com/insiders/ "Link to Visual Studio Code site") and all commit/push commands were performed in the software's terminal.
+
+#### Github Pages
+
+1. Log into [GitHub](https://github.com/ "link to GitHub website").
+
+2. Select the repositery to deploy.
+
+3. Click on Settings tab.
+
+4. Scroll down to the GitHub Pages section under Source and open it, it will open in a different tab.
+
+5. Select "Branch: master" and then on the new dropdown menu that will appear select "/(root)" and click Save.
+
+6. The "Github Pages" section now contains a link to the deployed page.
+
+#### Forking the Repository
+
+1. Log into [GitHub](https://github.com/ "link to GitHub website").
+
+2. Select the repository to fork.
+
+3. Click on "Fork".
+
+[Back to Top ⇧](#Let'sPlay!Rock-Paper-Scissors-Lizzard-Spock) 
+
+***
+
+### Issues and Bugs
+
+(...)
+
+[Back to Top ⇧](#AdrianaCrafter) 
+
+***
+
+## Technologies Used
+
+### Main Languages Used
+
+- [CSS](https://en.wikipedia.org/wiki/CSS)
+
+- [HTML](https://en.wikipedia.org/wiki/HTML)
+
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+
+### Frameworks, Libraries and Programs Used
+
+- [Font Awesome](https://fontawesome.com/ "Link to FontAwesome") was used.
+- [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln "link to Unicorn Revealer") was used to identify the overflows on the website.
+- [GitHub](https://github.com/ "Link to GitHub") was used to store the project.
+- [Figma](https://www.figma.com/ "Link to Figma homepage") was used to create the wireframes during the design phase of the project.
+- [Am I Responsive?](http://ami.responsivedesign.is/# "Link to Am I Responsive Homepage") was used to see responsive design throughout the process and to generate mockup imagery to be used on README file.
+- [Unsplash](https://unsplash.com/ "link to Unsplash") was used for the picture used in the Whats is A dreamcatcher section.
+
+[Back to Top ⇧](#Let'sPlay!Rock-Paper-Scissors-Lizzard-Spock) 
+
+***
+
+## Credits
+
+### Code
+
+The below sites were consulted by the developer to better understand the JavaScript code. Any code used from those sites have been carefully referenced with the code.
+
+The sites consulted are:
+
+- [w3Schools](https://www.w3schools.com/ "link to w3s")
+
+- [Stack Overflow](https://stackoverflow.com "link to Stack Overflow")
+
+### Media
+
+The images were sourced from [Unsplash](https://unsplash.com/ "link to Unsplash").
+
+[Back to Top ⇧](#Let'sPlay!Rock-Paper-Scissors-Lizzard-Spock) 
+
+### Acknowledgements
+
+(...)
+
+
+[Back to Top ⇧](#Let'sPlay!Rock-Paper-Scissors-Lizzard-Spock) 
