@@ -65,22 +65,22 @@ h1 h2 {
     display: flex;
 }
 
-.player-score {
+#player-score {
     width: 40%;
     height: fit-content;
 }
 
-.computer-score {
+#computer-score {
     width: 40%;
     height: fit-content;
 }
 
-.score-area p {
+#score-area p {
     padding-top: 20px;
     font-size: 2vh;
 }
 
-.tie-score {
+#tie-score {
     width: 20%;
     height: fit-content;
 }
