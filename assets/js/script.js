@@ -2,10 +2,8 @@
 
 let playerAnswerArea = document.getElementsByClassName('player-answer')[0];
 let playerImageArea = document.getElementsByClassName('player-answer-img')[0];
-
 let computerAnswerArea = document.getElementsByClassName('computer-answer')[0];
 let computerImageArea = document.getElementsByClassName('computer-answer-img')[0];
-
 let buttonsAnswers = document.querySelectorAll('button');
 let playerAnswer = [
     'rock',
@@ -16,7 +14,6 @@ let playerAnswer = [
 ];
 
 imagesPath = "assets/images/"
-
 let gameImages = {
     rock : imagesPath + "rock.jpg", 
     lizard : imagesPath + "lizard.jpg",
@@ -26,7 +23,6 @@ let gameImages = {
     };
 
 // Create answer from player and show image for player and computer choices
-
 
 buttonsAnswers.forEach(answer => answer.addEventListener('click', (occasion) => {
     playerAnswer = occasion.target.id;
@@ -63,7 +59,7 @@ function createComputerAnswer() {
 
 function roundOutcome() {
     if (playerAnswer === returnedAnswer) {
-        outcome = "Nobody wins, try again!"
+        outcome = "Nobody wins, try again!";
     };
     if (playerAnswer === 'rock' && returnedAnswer === 'paper') {
         outcome = 'You lost!'
@@ -129,4 +125,24 @@ function roundOutcome() {
     document.getElementById("outcome-reaction").innerHTML = outcome;
     console.log(outcome);
 }
+
+// Get score updated with round results
+
+function score() {
+    let userPoints = 0;
+    let compPoints = 0;
+    let tPoints = 0;
+};
+
+function updatePoints() {
+    let playerPoints = document.getElementById('player-points p');
+    let compPoints = document.getElementById('computer-points p');
+    let tiePoints = document.getElementById('tie-points p');
+
+    playerPoints.innerHTML = userPoints;
+    compPoints.innerHTML = compPoints;
+    tiePoints.innerHTML = tPoints;
+};
+
+
 
