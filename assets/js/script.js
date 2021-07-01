@@ -63,7 +63,7 @@ function createComputerAnswer() {
 }
 
 
-// Generate an outcome by comparing player and computer´s answers
+// Generate an outcome by comparing player and computer´s answers and add up score
 
 // function roundOutcome() {
 //     if (playerAnswer === returnedAnswer) {
@@ -134,17 +134,24 @@ function createComputerAnswer() {
 //     console.log(outcome);
 // }
 
-
+let playerScore = 0;
+let computerScore = 0;
+let tieScore = 0;
 
 function roundOutcome() {
     let outcome;
     if (playerAnswer === returnedAnswer) {
         outcome = "Nobody wins, try again!";
+        tieScore++;
     } else if ((playerAnswer === 'rock' && returnedAnswer === 'scissors') || (playerAnswer === 'rock' && returnedAnswer === 'lizard') || (playerAnswer === 'paper' && returnedAnswer === 'rock') || (playerAnswer === 'paper' && returnedAnswer === 'spock') || (playerAnswer === 'scissors' && returnedAnswer === 'paper') || (playerAnswer === 'scissors' && returnedAnswer === 'lizard') || (playerAnswer === 'lizard' && returnedAnswer === 'paper') || (playerAnswer === 'lizard' && returnedAnswer === 'spock') || (playerAnswer === 'spock' && returnedAnswer === 'rock') || (playerAnswer === 'spock' && returnedAnswer === 'scissors')) {
         outcome = "You win!";
+        computerScore++;
     } else if ((playerAnswer === 'rock' && returnedAnswer === 'paper') || (playerAnswer === 'rock' && returnedAnswer === 'spock') || (playerAnswer === 'paper' && returnedAnswer === 'scissors') || (playerAnswer === 'paper' && returnedAnswer === 'lizard') || (playerAnswer === 'scissors' && returnedAnswer === 'rock') || (playerAnswer === 'scissors' && returnedAnswer === 'spock') || (playerAnswer === 'lizard' && returnedAnswer === 'rock') || (playerAnswer === 'lizard' && returnedAnswer === 'scissors') || (playerAnswer === 'spock' && returnedAnswer === 'paper') || (playerAnswer === 'spock' && returnedAnswer === 'lizard')) {
         outcome = "You lost!";
+        tieScore++;
     }
     document.getElementById("outcome-reaction").innerHTML = outcome;
     console.log(outcome);
 }
+
+
