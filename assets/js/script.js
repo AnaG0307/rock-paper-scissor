@@ -134,34 +134,26 @@ function createComputerAnswer() {
 //     console.log(outcome);
 // }
 
-
+let playerScore = 0;
+let computerScore = 0;
+let tieScore = 0;
 
 function roundOutcome() {
     let outcome;
-    
-    let playerScore = 0;
-    let computerScore = 0;
-    let tieScore = 0;
 
         if (playerAnswer === returnedAnswer) {
         outcome = "Nobody wins, try again!";
-        tieScore + tieScore++;
+        tieScore++;
     } else if ((playerAnswer === 'rock' && returnedAnswer === 'scissors') || (playerAnswer === 'rock' && returnedAnswer === 'lizard') || (playerAnswer === 'paper' && returnedAnswer === 'rock') || (playerAnswer === 'paper' && returnedAnswer === 'spock') || (playerAnswer === 'scissors' && returnedAnswer === 'paper') || (playerAnswer === 'scissors' && returnedAnswer === 'lizard') || (playerAnswer === 'lizard' && returnedAnswer === 'paper') || (playerAnswer === 'lizard' && returnedAnswer === 'spock') || (playerAnswer === 'spock' && returnedAnswer === 'rock') || (playerAnswer === 'spock' && returnedAnswer === 'scissors')) {
         outcome = "You win!";
-        playerScore + playerScore++;
+        playerScore++;
     } else if ((playerAnswer === 'rock' && returnedAnswer === 'paper') || (playerAnswer === 'rock' && returnedAnswer === 'spock') || (playerAnswer === 'paper' && returnedAnswer === 'scissors') || (playerAnswer === 'paper' && returnedAnswer === 'lizard') || (playerAnswer === 'scissors' && returnedAnswer === 'rock') || (playerAnswer === 'scissors' && returnedAnswer === 'spock') || (playerAnswer === 'lizard' && returnedAnswer === 'rock') || (playerAnswer === 'lizard' && returnedAnswer === 'scissors') || (playerAnswer === 'spock' && returnedAnswer === 'paper') || (playerAnswer === 'spock' && returnedAnswer === 'lizard')) {
         outcome = "You lost!";
-        computerScore + computerScore++;
+        computerScore++;
     }
 
     document.getElementById("outcome-reaction").innerHTML = outcome;
-    console.log(outcome);
-
     document.getElementById('p-score').innerHTML = playerScore;
     document.getElementById('c-score').innerHTML = computerScore;
     document.getElementById('t-score').innerHTML = tieScore;
-
-    console.log(playerScore);
-    console.log(computerScore);
-    console.log(tieScore);
 }
