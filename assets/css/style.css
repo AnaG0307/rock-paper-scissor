@@ -218,6 +218,22 @@ h1 h2 {
     padding: 75px 0px 35px;
 }
 
+.origins-area p {
+    width: 75%;
+    height: fit-content;
+    margin: auto;
+    line-height: 150%;
+}
+
+#creators-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+#creators-link:hover {
+    border-bottom: solid 1px black;
+}
+
 .play-btn {
     background-color: #BB371A;
     color: white;
