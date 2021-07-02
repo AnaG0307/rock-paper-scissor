@@ -240,11 +240,17 @@ h1 h2 {
 }
 
 .play-btn {
-    background-color: #BB371A;
+    background-color: #BA371A;
     color: white;
     font-size: 150%;
     border-radius: 5%;
     padding: 20px 30px;
+    text-decoration: none;
+    border: black 1px solid;
+}
+
+.play-btn:hover {
+   background-color: #F4856C;
 }
 
 /* --------- footer --------- */
