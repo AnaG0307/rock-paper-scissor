@@ -172,7 +172,7 @@ h1 h2 {
 /* --------- origins and rules area --------- */
 
 .origins-rules-area {
-    background-color: #E0E8BE;
+    background-color: #FFF8D9;
     width: 100%;
     height: fit-content;
     display: flex;
@@ -180,20 +180,18 @@ h1 h2 {
 }
 
 .rules-area {
-    background-color: #E0E8BE;
     width: 100%;
     height: fit-content;
     padding: 75px 0px 35px;
 }
 
 .rules-area img {
-    width: 50%;
-    height: 50%;
+    width: 75%;
+    height: 75%;
     padding: 75px 0px 35px;
 }
 
 .origins-area {
-    background-color: #D5DBB3;
     width: 100%;
     height: fit-content;
     padding: 75px 0px 35px;
@@ -205,17 +203,18 @@ h1 h2 {
     padding: 75px 0px 35px;
 }
 
-/* --------- footer --------- */
-
-.footer-main {
-    background-color: #BB371A;
-    width: 100%;
-    height: fit-content;
-    padding: 75px 75px 0px;
-    color: white;
+#btn {
+    
 }
 
-#footer {
+/* --------- footer --------- */
+
+.footer {
+    background-color: #BB371A;
+    width: 100%;
+    padding: 75px;
+    height: fit-content;
+    color: white;
     display: flex;
 }
 
@@ -225,7 +224,6 @@ h1 h2 {
 }
 
 .social-media i {
-    font-size: 250%;
+    font-size: 230%;
     color: white;
-    padding: 75px;
 }
