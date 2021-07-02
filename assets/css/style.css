@@ -50,6 +50,21 @@ h1 h2 {
     font-size: 5vh;
 }
 
+.header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.title {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+
+.title:hover {
+    border-bottom: solid 3px white;
+}
+
 /* --------- score area --------- */
 
 .score-area {
@@ -203,8 +218,11 @@ h1 h2 {
     padding: 75px 0px 35px;
 }
 
-#btn {
-    
+.play-btn {
+    background-color: #BB371A;
+    color: white;
+    border-radius: 5%;
+    padding: 10px;
 }
 
 /* --------- footer --------- */
