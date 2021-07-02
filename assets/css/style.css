@@ -280,3 +280,15 @@ h1 h2 {
     font-size: 230%;
     color: white;
 }
+
+/* Media queries for medium screens between 900px and 700px */
+
+@media (max-width: 900px) and (min-width: 700px) {
+    
+}
+
+/* Media queries for medium to bigger screens */
+
+@media (max-width: 1200px) and (min-width: 900px) {
+
+}
