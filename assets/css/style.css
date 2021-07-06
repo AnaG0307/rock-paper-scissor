@@ -350,6 +350,53 @@ h1 h2 {
         width: 100%;
         height: fit-content;
         display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .play-area img {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .computer-answer {
+        width: 40%;
+        height: fit-content;
+    }
+    
+    .player-answer {
+        width: 40%;
+        height: fit-content;
+    }
+    
+    .outcome-box {
+        width: 20%;
+        height: fit-content;
+        padding-top: 10vh;
+    }
+    
+    #outcome-reaction {
+        font-size: 150%;
+    }
+
+    .btn-area p {
+        font-size: 130%;
+    }
+
+}
+
+/* Media queries for screens smaller than 700px */
+
+@media (max-width: 70000px) and (min-width: 300px) {
+    body {
+        font-size: 90%;
+    }
+
+    .play-area {
+        background-color: #FFF8D9;
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column-reverse;
     }
     
     .play-area img {
