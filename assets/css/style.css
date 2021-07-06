@@ -219,15 +219,15 @@ h1 h2 {
 
 .origins-area {
     width: 100%;
-    height: fit-content;
+    height: auto;
     padding: 75px 0px 0px;
 }
 
-.origins-area iframe {
-    width: 896px !important;
-    height: 504px !important;
+/* .origins-area iframe {
+    width: 70%;
+    height: fit-content;
     padding: 75px 0px 35px;
-}
+} */
 
 .origins-area p {
     width: 75%;
@@ -284,11 +284,63 @@ h1 h2 {
 /* Media queries for medium screens between 900px and 700px */
 
 @media (max-width: 900px) and (min-width: 700px) {
+    body {
+        font-size: 70%;
+    }
+
+    .play-area {
+        background-color: #FFF8D9;
+        width: 100%;
+        height: fit-content;
+        display: flex;
+    }
     
+    .play-area img {
+        width: 220px;
+        height: 220px;
+    }
+    
+    .computer-answer {
+        width: 40%;
+        height: fit-content;
+    }
+    
+    .player-answer {
+        width: 40%;
+        height: fit-content;
+    }
+    
+    .outcome-box {
+        width: 20%;
+        height: fit-content;
+        padding-top: 10vh;
+    }
+    
+    #outcome-reaction {
+        font-size: 150%;
+    }
+
+    .btn-area p {
+        font-size: 130%;
+    }
 }
 
 /* Media queries for medium to bigger screens */
 
 @media (max-width: 1200px) and (min-width: 900px) {
+    body {
+        font-size: 70%;
+    }
+
+    .play-area {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+    }
+
+    .player-answer-img {
+        width: 50%;
+        height: 50%;
+    }
 
 }
