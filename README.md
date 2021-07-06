@@ -1,4 +1,4 @@
-# Let'sPlay!Rock-Paper-Scissors-Lizzard-Spock
+# Let'sPlay!Games
 
 ![Website home page screenshot](assets/images/readme/site-screenshots.png)
 [View the page on github here](https://anag0307.github.io/rock-paper-scissor/)
