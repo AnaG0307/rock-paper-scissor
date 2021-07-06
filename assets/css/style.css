@@ -350,12 +350,11 @@ h1 h2 {
         width: 100%;
         height: fit-content;
         display: flex;
-        flex-direction: column-reverse;
     }
 
     .play-area img {
-        width: 120px;
-        height: 120px;
+        width: 300px;
+        height: 300px;
     }
 
     .computer-answer {
@@ -386,7 +385,7 @@ h1 h2 {
 
 /* Media queries for screens smaller than 700px */
 
-@media (max-width: 70000px) and (min-width: 300px) {
+@media (max-width: 700px) and (min-width: 300px) {
     body {
         font-size: 90%;
     }
