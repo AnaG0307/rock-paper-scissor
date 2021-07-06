@@ -231,13 +231,13 @@ h1 h2 {
 }
 
 .origins-area iframe {
-   position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 80%;
-  height: 80%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 80%;
+    height: 80%;
     padding: 75px 0px 35px;
     margin: auto;
 }
@@ -269,7 +269,7 @@ h1 h2 {
 }
 
 .play-btn:hover {
-   background-color: #F4856C;
+    background-color: #F4856C;
 }
 
 /* --------- footer --------- */
@@ -307,28 +307,28 @@ h1 h2 {
         height: fit-content;
         display: flex;
     }
-    
+
     .play-area img {
         width: 220px;
         height: 220px;
     }
-    
+
     .computer-answer {
         width: 40%;
         height: fit-content;
     }
-    
+
     .player-answer {
         width: 40%;
         height: fit-content;
     }
-    
+
     .outcome-box {
         width: 20%;
         height: fit-content;
         padding-top: 10vh;
     }
-    
+
     #outcome-reaction {
         font-size: 150%;
     }
@@ -352,28 +352,28 @@ h1 h2 {
         display: flex;
         flex-direction: column-reverse;
     }
-    
+
     .play-area img {
         width: 120px;
         height: 120px;
     }
-    
+
     .computer-answer {
         width: 40%;
         height: fit-content;
     }
-    
+
     .player-answer {
         width: 40%;
         height: fit-content;
     }
-    
+
     .outcome-box {
         width: 20%;
         height: fit-content;
         padding-top: 10vh;
     }
-    
+
     #outcome-reaction {
         font-size: 150%;
     }
@@ -398,34 +398,52 @@ h1 h2 {
         display: flex;
         flex-direction: column-reverse;
     }
-    
+
     .play-area img {
         width: 220px;
         height: 220px;
     }
-    
+
     .computer-answer {
         width: 40%;
         height: fit-content;
     }
-    
+
     .player-answer {
         width: 40%;
         height: fit-content;
     }
-    
+
     .outcome-box {
         width: 20%;
         height: fit-content;
         padding-top: 10vh;
     }
-    
+
     #outcome-reaction {
         font-size: 150%;
+        padding-bottom: 75px;
+    }
+
+    .answer-box {
+        width: 100%;
+        height: fit-content;
     }
 
     .btn-area p {
         font-size: 130%;
     }
 
+    .score {
+        font-size: 80%;
+    }
+
+    .header p {
+        font-size: 110%;
+    }
+
+    .btn-area {
+        width: 100%;
+        height: fit-content;
+    }
 }
