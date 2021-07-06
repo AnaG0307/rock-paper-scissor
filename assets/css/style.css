@@ -223,11 +223,24 @@ h1 h2 {
     padding: 75px 0px 0px;
 }
 
-/* .origins-area iframe {
-    width: 70%;
-    height: fit-content;
+#video {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+.origins-area iframe {
+   position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 80%;
+  height: 80%;
     padding: 75px 0px 35px;
-} */
+    margin: auto;
+}
 
 .origins-area p {
     width: 75%;
@@ -329,18 +342,43 @@ h1 h2 {
 
 @media (max-width: 1200px) and (min-width: 900px) {
     body {
-        font-size: 70%;
+        font-size: 90%;
     }
 
     .play-area {
+        background-color: #FFF8D9;
         width: 100%;
         height: fit-content;
         display: flex;
     }
+    
+    .play-area img {
+        width: 220px;
+        height: 220px;
+    }
+    
+    .computer-answer {
+        width: 40%;
+        height: fit-content;
+    }
+    
+    .player-answer {
+        width: 40%;
+        height: fit-content;
+    }
+    
+    .outcome-box {
+        width: 20%;
+        height: fit-content;
+        padding-top: 10vh;
+    }
+    
+    #outcome-reaction {
+        font-size: 150%;
+    }
 
-    .player-answer-img {
-        width: 50%;
-        height: 50%;
+    .btn-area p {
+        font-size: 130%;
     }
 
 }
