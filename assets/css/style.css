@@ -207,8 +207,8 @@ h1 h2 {
 }
 
 .rules-area img {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     padding: 75px 0px 75px;
     margin: auto;
 }
@@ -236,8 +236,8 @@ h1 h2 {
     left: 0;
     bottom: 0;
     right: 0;
-    width: 80%;
-    height: 80%;
+    width: 70%;
+    height: 70%;
     padding: 75px 0px 35px;
     margin: auto;
 }
@@ -246,7 +246,8 @@ h1 h2 {
     width: 75%;
     height: fit-content;
     margin: auto;
-    line-height: 150%;
+    line-height: 200%;
+    padding-top: 35px;
 }
 
 #creators-link {
