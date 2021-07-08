@@ -149,6 +149,10 @@ h1 h2 {
     height: fit-content;
 }
 
+#outcome-reaction {
+    font-size: 250%;
+}
+
 /* --------- answer area --------- */
 
 .answer-area {
@@ -332,7 +336,7 @@ h1 h2 {
     }
 
     #outcome-reaction {
-        font-size: 150%;
+        font-size: 250%;
     }
 
     .btn-area p {
@@ -376,7 +380,7 @@ h1 h2 {
     }
 
     #outcome-reaction {
-        font-size: 150%;
+        font-size: 250%;
     }
 
     .btn-area p {
@@ -416,14 +420,15 @@ h1 h2 {
     }
 
     .outcome-box {
-        width: 20%;
+        width: 100%;
         height: fit-content;
         padding-top: 10vh;
     }
 
     #outcome-reaction {
-        font-size: 150%;
-        padding-bottom: 75px;
+        font-size: 250%;
+        padding-bottom: 35px;
+        text-align: center;
     }
 
     .answer-box {
