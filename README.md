@@ -162,13 +162,24 @@ The site needed a simple and fresh look that allowed the user to navigate the si
 
 ## Features
 
+This website is designed for current and potential gamers who want to learn and play the game for a little while. At the same time the user can find the social media links for networking.
+
 ### Landing Page
+
+The landing title and subtitle is designed for any user to understand straight away what is the website about. Before getting started with the game it explains the historical origins of the game and the variant of it, as well as a video of the TV series that popularised it, Big Bang Theory. 
+
+After this section we find the rules section explaining how to win at the game and a button with a direct link to the game page.
 
 ### Game Section
 
+The design of this page is also kept as simple and straight forward as possible as well as maintaining the design of the landing page to create consistency. The page is divided in 3 parts:
+- Score area: where the results of the differents rounds is kept.
+- Image and result area: where the images of the selection made by the computer appear and at the center we can see the outcome of the choices made.
+- Option area: buttons where the user can make his/her choice.
+
 ### Footer
 
-
+The footer is been kept simple and minimalistic. The user can see the icons to the different social media where the game platform has a profile open and when clicking a different page opens and directs the user to the site. The footer is the same in all pages to create consistency.
 
 [Back to Top ⇧](#LetsPlay!Games)
 
