@@ -37,7 +37,6 @@ buttonsAnswers.forEach(answer => answer.addEventListener('click', (occasion) => 
 
     returnedAnswer = createComputerAnswer();
 
-    let returnedPlayerImage = getImage(playerAnswer);
     playerAnswerArea.innerText = playerAnswer;
     playerImage = getImage(playerAnswer);
 
