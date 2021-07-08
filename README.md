@@ -37,11 +37,14 @@
 
 7. [Credits](#Credits)
 
+8. [Future Implementations](#Future-Implementations)
+
+
 ***
 
 ## Introduction
 
-(...)
+This website is been built for 'Let´s Play!Games', a ficticious online gaming platform. The website hosts the variant of the ancient game Rock, Paper, Scissors but with a variation adding Lizard, Spock into the options to choose on. The site provides a little information about the origins of the game, how it became popular, what are the rules of the game and finally, the game itself. The user can play either on their desktop, tablets or smartphones and allows to access the social media platform of the gaming platform.
 
 [Back to Top ⇧](#LetsPlayGames) 
 
@@ -247,7 +250,7 @@ This project was developed using [Visual Studio Code Insiders](https://code.visu
 
 ### Issues and Bugs
 
-(...)
+No issues or bugs were found at the time of testing the site.
 
 [Back to Top ⇧](#LetsPlayGames) 
 
@@ -296,9 +299,6 @@ The images were sourced from [Unsplash](https://unsplash.com/ "link to Unsplash"
 
 [Back to Top ⇧](#LetsPlayGames) 
 
-### Acknowledgements
+## Future Implementations
 
-(...)
-
-
-[Back to Top ⇧](#LetsPlayGames) 
+As future a implementation planned to develop on a later stage to give the game a little more variation and fun is the following: in the game page, once the computer and the user has made the choice the text prompting at the moment is very static (only three responses available). In the future more choices will be created to provide more variety and unexpected answer once the outcome is announced.
