@@ -189,11 +189,21 @@ The footer is been kept simple and minimalistic. The user can see the icons to t
 
 ### Testing
 
-General testing [video on Youtube (external link)](https://www.you... "Adriana Crafter general testing video"). 
+The developer has tested the following on the site to ensure everything works as expected:
+
+- The landing page text is readable and the link to the creators site opens on a new tab.
+- The video starts on a click and the user can use the commands.
+- The rules diagram is readble.
+- The link to the game works and the page doesn't open on a separate page.
+- On the game page the user options works on a mouse click and the computer responds by making a random choice.
+- Once computer and user have made a choice a result is showed and the score updated as expected.
+- When clicking on the social media icons a link to them opens on a new page.
+- When clicking on the platform name on the top center of the page the page is redirected to the landing page whitout opening a new tab.
+- Both pages are responsive to both medium and small screens and in both everything works as expected as well.
 
 The observations are as follows:
 
-- (...)
+- On screens of just over 1000px the game page height was not long enough to cover the whole page and a white area was present. The issue was solving by making the buttons of the user choice longer so instead of one line they need two lines to show correctly and all the space is used.
 
 ### Validation
 
@@ -202,6 +212,8 @@ No errors have been found when checking HTML and CSS code. To validate the code 
 - [Jigsaw](https://validator.w3.org/ "link to the validator website for CSS")
 
 - [W3C](https://validator.w3.org/#validate_by_input "link to the validator website for HTML")
+
+- [JSHint](https://jshint.com/ "link to the validator website for JavaScript")
 
 ### Deployment
 
