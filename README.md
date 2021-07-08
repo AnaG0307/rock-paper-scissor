@@ -17,19 +17,11 @@
 
 3. [Features](#Features)
 
-    i. [Navigation Bar](#Navigation-Bar)
+    i. [Landing Page Image](#Landing-Page-Image)
 
-    ii. [Landing Page Image](#Landing-Page-Image)
+    ii. [Home Section](#Home-Section)
 
-    iii. [Home Section](#Home-Section)
-
-    iv. [Footer](#Footer)
-
-    v. [Gallery](#Gallery)
-
-    vi. [Create your Order](#Create-Your-Order)
-
-    vii. [Contact](#Contact)
+    iii. [Footer](#Footer)
 
 4. [Testing, Validation and Deployment](#Testing-and-Deployment)
 
@@ -59,15 +51,23 @@
 
 ### Ideal User Demographic 
 #### The ideal user of this website is:
-- (...)
+- Current social media followers.
+- Potential followers.
+- Followers of similar platforms.
+- Gamers.
 
 
 ### User Stories
 #### New and potential users goals:
-- (...)
+- As a new follower, I want to easily navigate the website and use it intuitively.
+- As a new follower, I want to be able to play from different devices (desktop, mobile phone, etc.).
+- As a new follower, I want to find out more about the game platform through their social media links.
 
 #### Current Social Media Followers
-- (...)
+- As a current social media follower, I want to discover new games through their social media platforms.
+- As a current social media follower, I want to be able to keep playing to a game that I like and enjoy.
+- As a current social media follower, I want to be able to connect to other gamers through social media platforms.
+
 
 [Back to Top ⇧](#Let'sPlay!Rock-Paper-Scissors-Lizzard-Spock) 
 
@@ -75,20 +75,26 @@
 
 ### Design Planes
 
-(...)
+In order to create a simple but effective website, the developer considered what were the goals and functionality needs of the site and worked in accordance. The user described above were taken into consideration. 
 
 #### **Strategy**
 
 ##### Who is this website for and what does it do?
 
 1. Demographics:
-    1. (...)
+    1. Current and new followers.
+    2. Males and females aged from 5 to 99 years old.
+    3. People who wishes to play an old and simple game while they commute, wait at the doctor's, etc.
 
 2. Functional Requirements:
-    1. (...)
+    1. The game is accessed and played in a simple and easy way.
+    2. The user can access social media platforms.
+    3. The user can access the rules and understand how the game was created.
 
-3. Benefits for the artist:
-    1. (...)
+3. Benefits for the game platform:
+    1. Build an online presence.
+    2. Be able to focus on only one game at a time.
+    3. Be able to customize the site to the thematics of the game.
 
 4. Importance/Feasability Curve
 
