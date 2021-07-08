@@ -108,28 +108,53 @@ In order to align the features defined in the strategy section, the scope was di
 
 The user will be looking for:
 
-- (...)
+- General information about the game.
+- Rules of the game.
+- Play the game against the computer.
+- Keep a score of the rounds played.
 
 **Functionality Requirements**
 
-- (...)
+- Easily navigate the site.
+- Easily play the game.
+- Easily understand the rules.
+- Easily access social media links for the LET'S Play!Game platform.
 
 #### **Structure**
 
 The website is been organised in a way the user can find the different sections in a strcutured but also relevant way. The results are as follows:
 
-![Website Structure](add acreenshot of the structure of the site)
+1. Landing Page:
+- Origins of the game.
+- Rules of the game.
+- Button link to the game.
+
+2. Game Page:
+- Player and computer playing area.
+- Score area.
+
+3. Footer - Social Media Links:
+- Facebook.
+- Twitter.
+- Youtube.
 
 #### **Skeleton**
 
 How is the information represented and how does the user find such information:
 
-- (...)
+- The landing page introduces the user to the origins of the game. It explains the historical background and the twsist to the game introduced by the creators of this version (link to their site provided as well) and includes a video to the TV show that made this version popular.
+- The navigation is clear and simple: from the main page there is a button to click to play the game and from the game page the user can click the the top bar to get back to the main page.
+- The footer contains icons representing the different social media profiles used by the game platform.
 - Wireframe mockups were created in [Figma](https://www.figma.com/file/ECj7IYln3FYai5damrGpnC/Rock%2C-paper%2C-scissor%2C-lizard%2C-Spock?node-id=0%3A1 "Link to Figma") to ensure the structure represented all the requirements described above (different versions were created).
 
 #### **Surface**
 
-- (...)
+The site needed a simple and fresh look that allowed the user to navigate the site without too many distractions. The users were also taken into account:
+
+- The main targeted users are people from a wide age range so it had to be as intuitive and simple as possible.
+- The colors used on the website creates a clear separation between sections but at the same time the background doesn't distract the user from the game. The colors are consistent as well throught the site.
+- To create consistency, the fonts chosen were Fira Sans for the Main text and Ubuntu for the tiles.
+- The navigation is designed to work efficiently as well as to provide functionality.
 
 [Back to Top ⇧](#Let'sPlay!Rock-Paper-Scissors-Lizzard-Spock) 
 
