@@ -1,4 +1,4 @@
-# Let'sPlay!Games
+# LetsPlay!Games
 
 ![Website home page screenshot](assets/images/readme/site-screenshots.png)
 [View the page on github here](https://anag0307.github.io/rock-paper-scissor/)
@@ -17,9 +17,9 @@
 
 3. [Features](#Features)
 
-    i. [Landing Page Image](#Landing-Page-Image)
+    i. [Landing Page](#Landing-Page)
 
-    ii. [Home Section](#Home-Section)
+    ii. [Game Section](#Game-Page)
 
     iii. [Footer](#Footer)
 
@@ -69,7 +69,7 @@
 - As a current social media follower, I want to be able to connect to other gamers through social media platforms.
 
 
-[Back to Top ⇧](#Let'sPlay!Rock-Paper-Scissors-Lizzard-Spock) 
+[Back to Top ⇧](#Let'sPlay!Games) 
 
 ***
 
@@ -156,17 +156,21 @@ The site needed a simple and fresh look that allowed the user to navigate the si
 - To create consistency, the fonts chosen were Fira Sans for the Main text and Ubuntu for the tiles.
 - The navigation is designed to work efficiently as well as to provide functionality.
 
-[Back to Top ⇧](#Let'sPlay!Rock-Paper-Scissors-Lizzard-Spock) 
+[Back to Top ⇧](#LetsPlay!Games)
 
 ***
 
 ## Features
 
-(...)
+### Landing Page
+
+### Game Section
+
+### Footer
 
 
 
-[Back to Top ⇧](#Let'sPlay!Rock-Paper-Scissors-Lizzard-Spock) 
+[Back to Top ⇧](#LetsPlay!Games)
 
 ***
 
@@ -214,7 +218,7 @@ This project was developed using [Visual Studio Code Insiders](https://code.visu
 
 3. Click on "Fork".
 
-[Back to Top ⇧](#Let'sPlay!Rock-Paper-Scissors-Lizzard-Spock) 
+[Back to Top ⇧](#Let'sPlay!Games)
 
 ***
 
@@ -222,7 +226,7 @@ This project was developed using [Visual Studio Code Insiders](https://code.visu
 
 (...)
 
-[Back to Top ⇧](#AdrianaCrafter) 
+[Back to Top ⇧](#Let'sPlay!Games)
 
 ***
 
@@ -245,7 +249,7 @@ This project was developed using [Visual Studio Code Insiders](https://code.visu
 - [Am I Responsive?](http://ami.responsivedesign.is/# "Link to Am I Responsive Homepage") was used to see responsive design throughout the process and to generate mockup imagery to be used on README file.
 - [Unsplash](https://unsplash.com/ "link to Unsplash") was used for the picture used in the Whats is A dreamcatcher section.
 
-[Back to Top ⇧](#Let'sPlay!Rock-Paper-Scissors-Lizzard-Spock) 
+[Back to Top ⇧](#Let'sPlay!Games)
 
 ***
 
@@ -267,11 +271,11 @@ The sites consulted are:
 
 The images were sourced from [Unsplash](https://unsplash.com/ "link to Unsplash").
 
-[Back to Top ⇧](#Let'sPlay!Rock-Paper-Scissors-Lizzard-Spock) 
+[Back to Top ⇧](#Let'sPlay!Games)
 
 ### Acknowledgements
 
 (...)
 
 
-[Back to Top ⇧](#Let'sPlay!Rock-Paper-Scissors-Lizzard-Spock) 
+[Back to Top ⇧](#Let'sPlay!Games)
