@@ -1,11 +1,3 @@
-// /* jshint esversion: 6 */
-
-// var basePage = require('./basePage.js');
-// var casual = require('casual');
-// var randomRut = '#######';
-// var randomPhone = '##########';
-
-
 // Variables to stablish the players, buttons with all answers to choose and outcome of the round
 
 let playerAnswerArea = document.getElementsByClassName('player-answer')[0];
@@ -61,77 +53,7 @@ function createComputerAnswer() {
     return answers[assignPosition];
 }
 
-
 // Generate an outcome by comparing player and computer´s answers and add up score
-
-// function roundOutcome() {
-//     if (playerAnswer === returnedAnswer) {
-//         outcome = "Nobody wins, try again!";
-//     };
-//     if (playerAnswer === 'rock' && returnedAnswer === 'paper') {
-//         outcome = 'You lost!';
-//     };
-//     if (playerAnswer === 'rock' && returnedAnswer === 'scissors') {
-//         outcome = 'You win!'
-//     };
-//     if (playerAnswer === 'rock' && returnedAnswer === 'lizard') {
-//         outcome = 'You win!'
-//     };
-//     if (playerAnswer === 'rock' && returnedAnswer === 'spock') {
-//         outcome = 'You lost!'
-//     };
-//     if (playerAnswer === 'paper' && returnedAnswer === 'rock') {
-//         outcome = 'You win!'
-//     };
-//     if (playerAnswer === 'paper' && returnedAnswer === 'scissors') {
-//         outcome = 'You lost!'
-//     };
-//     if (playerAnswer === 'paper' && returnedAnswer === 'lizard') {
-//         outcome = 'You lost!'
-//     };
-//     if (playerAnswer === 'paper' && returnedAnswer === 'spock') {
-//         outcome = 'You win!'
-//     };
-//     if (playerAnswer === 'scissors' && returnedAnswer === 'rock') {
-//         outcome = 'You lost!'
-//     };
-//     if (playerAnswer === 'scissors' && returnedAnswer === 'paper') {
-//         outcome = 'You win!'
-//     };
-//     if (playerAnswer === 'scissors' && returnedAnswer === 'lizard') {
-//         outcome = 'You win!'
-//     };
-//     if (playerAnswer === 'scissors' && returnedAnswer === 'spock') {
-//         outcome = 'You lost!'
-//     };
-//     if (playerAnswer === 'lizard' && returnedAnswer === 'rock') {
-//         outcome = 'You lost!'
-//     };
-//     if (playerAnswer === 'lizard' && returnedAnswer === 'paper') {
-//         outcome = 'You win!'
-//     };
-//     if (playerAnswer === 'lizard' && returnedAnswer === 'scissors') {
-//         outcome = 'You lost!'
-//     };
-//     if (playerAnswer === 'lizard' && returnedAnswer === 'spock') {
-//         outcome = 'You win!'
-//     };
-//     if (playerAnswer === 'spock' && returnedAnswer === 'rock') {
-//         outcome = 'You win!'
-//     };
-//     if (playerAnswer === 'spock' && returnedAnswer === 'paper') {
-//         outcome = 'You lost!';
-//     };
-//     if (playerAnswer === 'spock' && returnedAnswer === 'scissors') {
-//         outcome = 'You win!';
-//     };
-//     if (playerAnswer === 'spock' && returnedAnswer === 'lizard') {
-//         outcome = 'You lost!';
-//     };
-
-//     document.getElementById("outcome-reaction").innerHTML = outcome;
-//     console.log(outcome);
-// }
 
 let playerScore = 0;
 let computerScore = 0;
@@ -139,7 +61,6 @@ let tieScore = 0;
 
 function roundOutcome() {
     let outcome;
-
         if (playerAnswer === returnedAnswer) {
         outcome = "Nobody wins, try again!";
         tieScore++;
@@ -150,7 +71,6 @@ function roundOutcome() {
         outcome = "You lost!";
         computerScore++;
     }
-
     document.getElementById("outcome-reaction").innerHTML = outcome;
     document.getElementById('p-score').innerHTML = playerScore;
     document.getElementById('c-score').innerHTML = computerScore;
