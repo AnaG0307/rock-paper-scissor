@@ -1,4 +1,4 @@
-# LetsPlay!Games
+# LetsPlayGames
 
 ![Website home page screenshot](assets/images/readme/site-screenshots.png)
 [View the page on github here](https://anag0307.github.io/rock-paper-scissor/)
@@ -43,7 +43,7 @@
 
 (...)
 
-[Back to Top ⇧](#Let'sPlay!Games) 
+[Back to Top ⇧](#LetsPlayGames) 
 
 ***
 
@@ -69,7 +69,7 @@
 - As a current social media follower, I want to be able to connect to other gamers through social media platforms.
 
 
-[Back to Top ⇧](#Let'sPlay!Games) 
+[Back to Top ⇧](#LetsPlayGames) 
 
 ***
 
@@ -156,7 +156,7 @@ The site needed a simple and fresh look that allowed the user to navigate the si
 - To create consistency, the fonts chosen were Fira Sans for the Main text and Ubuntu for the tiles.
 - The navigation is designed to work efficiently as well as to provide functionality.
 
-[Back to Top ⇧](#LetsPlay!Games)
+[Back to Top ⇧](#LetsPlayGames) 
 
 ***
 
@@ -181,7 +181,7 @@ The design of this page is also kept as simple and straight forward as possible 
 
 The footer is been kept simple and minimalistic. The user can see the icons to the different social media where the game platform has a profile open and when clicking a different page opens and directs the user to the site. The footer is the same in all pages to create consistency.
 
-[Back to Top ⇧](#LetsPlay!Games)
+[Back to Top ⇧](#LetsPlayGames) 
 
 ***
 
@@ -229,7 +229,7 @@ This project was developed using [Visual Studio Code Insiders](https://code.visu
 
 3. Click on "Fork".
 
-[Back to Top ⇧](#Let'sPlay!Games)
+[Back to Top ⇧](#LetsPlayGames) 
 
 ***
 
@@ -237,7 +237,7 @@ This project was developed using [Visual Studio Code Insiders](https://code.visu
 
 (...)
 
-[Back to Top ⇧](#Let'sPlay!Games)
+[Back to Top ⇧](#LetsPlayGames) 
 
 ***
 
@@ -260,7 +260,7 @@ This project was developed using [Visual Studio Code Insiders](https://code.visu
 - [Am I Responsive?](http://ami.responsivedesign.is/# "Link to Am I Responsive Homepage") was used to see responsive design throughout the process and to generate mockup imagery to be used on README file.
 - [Unsplash](https://unsplash.com/ "link to Unsplash") was used for the picture used in the Whats is A dreamcatcher section.
 
-[Back to Top ⇧](#Let'sPlay!Games)
+[Back to Top ⇧](#LetsPlayGames) 
 
 ***
 
@@ -282,11 +282,11 @@ The sites consulted are:
 
 The images were sourced from [Unsplash](https://unsplash.com/ "link to Unsplash").
 
-[Back to Top ⇧](#Let'sPlay!Games)
+[Back to Top ⇧](#LetsPlayGames) 
 
 ### Acknowledgements
 
 (...)
 
 
-[Back to Top ⇧](#Let'sPlay!Games)
+[Back to Top ⇧](#LetsPlayGames) 
